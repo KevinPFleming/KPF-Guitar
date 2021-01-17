@@ -5,11 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>KPF-Guitar</title>
 </head>
 
 <body>
+
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <div class="row h-100">
+                <div class="col-3">
+                    <img id="banjo" class="img-fluid img-thumbnail" src="images/KPF-Banjo.jpg">
+                </div>
+                <div class="col-6 align-self-center">
+                    <h1> Kevin Patrick Fleming </h1>
+                    <h2> Musician </h2>
+                </div>
+                <div class="col">
+                    <img id="c-guitar" class="img-fluid img-thumbnail" src="images/KPF-C-Guitar.jpg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#kpfNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="kpfNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
