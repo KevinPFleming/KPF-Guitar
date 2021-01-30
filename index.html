@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>KPF-Guitar</title>
 </head>
@@ -32,19 +35,77 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
+            <a class="navbar-brand" href="#"><strong> KPFMusic </strong></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#kpfNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="kpfNavbar">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sites</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info-circle fa-lg"></i> About/CV </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-music fa-lg"></i> Music Lessons </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-camera-retro fa-lg"></i> Photos </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-envelope fa-lg"></i> Contact </a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="heading-font mt-3"> Welcome to KPFMusic! </h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col mb-3">
+                <div class="media">
+                    <img class=" w-25 h-25 img-fluid img-thumbnail" src="images/Jam Camp kids1.jpg" />
+                    <div class="media-body align-self-center ml-5">
+                        <h2 class="mb-3 text-center"> Sharing the Gift of Music is my Way of Life </h2>
+                        <p class="d-none d-sm-block"> Having been involved in music for 3 decades, teaching and sharing the gift of music has become the love of my life, 
+                            especially with kids.  Music is great for kids in many ways including: brain and intelligence development, learning to
+                            work as a team with others, and enjoying the enrichment and beauty that music offers.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 footer-div">
+                    <h4> LINKS </h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#"> Home </a></li>
+                        <li><a href="#"> About/CV </a></li>
+                        <li><a href="#"> Music Lessons </a></li>
+                        <li><a href="#"> Photos </a></li>
+                        <li><a href="#"> Contact </a></li>
+                    </ul>
+                </div>
+                <div class="col-4 footer-div">
+                   <h4> SOCIAL LINKS </h4>
+                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+                     <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                     <a class="btn btn-social-icon btn-google" href="http://youtube.com"><i class="fa fa-youtube"></i></a>
+                     <a class="btn btn-social-icon btn-github" href="http://github.com"><i class="fa fa-github"></i></a>
+                     <a class="btn btn-social-icon btn-linkedin" href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="col footer-div">
+                    <h4> CONTACT INFO </h4>
+                     <a role="button" class="btn btn-link"><i class="fa fa-phone fa-lg"></i> 1-234-5678 </a>
+                     <a role="button" class="btn btn-link"><i class="fa fa-envelope-o"></i> kevin.patrick.fleming@gmail.com </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
